@@ -73,14 +73,14 @@ export default function Todo() {
                 </li>
                   <div className="button-container col-1">
                       <button
-                        // className="todo-button"
+                        className="todo-button"
                         onClick={() => removeTodo(todo.id)}
                       >
                         {" "}
                         Delete
                       </button>
                       <button
-                        // className="todo-button"
+                        className="todo-button"
                         onClick={() => editTodo(todo.id)}
                       >
                         {" "}

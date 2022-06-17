@@ -39,9 +39,10 @@ input {
   justify-content: space-evenly;
   align-items: center;
 }
-.todo-button + .todo-button {
+ .todo-button + .todo-button {
   margin-left: 0.5rem;
-}
+} 
+
 
 button {
   margin-left: 5px;
@@ -50,16 +51,18 @@ button {
 }
 .col-1 {
   flex: 1 1 20%;
+
 }
 li {
   color: #fff;
-  font-size: large;
+  font-size: 1.2rem;
   font-family: cursive;
+
 }
 .todo-button {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 100vmax;
+  border: none;
+  padding: .2rem;
 }
 .todo-button:hover {
   background-color: #ee5522;
@@ -72,6 +75,7 @@ input:focus {
 ::placeholder {
   color: #fff;
 }
+
 .col-1 button:hover {
   background-color: #ee5522;
   color: #fff;
