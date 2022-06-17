@@ -87,3 +87,8 @@ input:focus {
   background-color: #ee5522;
   color: #fff;
 }
+@media screen and (max-width: 600px) {
+  li{
+    font-size: 2.5rem;
+  }}
+  
