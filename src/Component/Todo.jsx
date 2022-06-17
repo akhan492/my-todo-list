@@ -46,7 +46,7 @@ export default function Todo() {
   return (
     <>
     <h1 className="todo-heading">Add your todo</h1>
-      <div className="todo-list" >
+      <div className="todo-list">
         <div className="container">
           <input
             type="text"
@@ -56,7 +56,7 @@ export default function Todo() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          <button className="todo-button" onClick={addtodo}>
+          <button className="button" onClick={addtodo}>
             {isEdit ? "Add" : "Update"}
           </button>
             </div>
